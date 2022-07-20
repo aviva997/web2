@@ -1,0 +1,152 @@
+body{ 
+    min-height: 100vh;
+  }
+nav{
+    display: flow-root;
+    width: 100%;
+    background-color: steelblue;
+   
+}
+nav h3{
+    color: white;
+    float:left;
+    padding-left: 20px;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+li {
+    float: right;
+    padding: 10px;
+ 
+  }
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+main h2 {
+    text-align: center;
+}
+main p {
+    text-align: center;
+}
+main img{
+    opacity: 0.8;
+    width: 20%;
+    height: 15%;
+    padding: 20px 20px 20px 20px ;
+ 
+}
+
+.img1{
+    padding-left: 20%;
+    position: relative;
+}
+.img2{
+    padding-left: 20%;
+    position: relative;
+}
+.top-right{
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    color: white;
+}
+.top-right1{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    color: white;
+  
+}
+.top-right2{
+    position: absolute;
+    top: 20px;
+    left: 69%;
+    color: white;
+  
+}
+
+/* footer css */
+
+footer{
+    width: 100%;
+    background-color: steelblue;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+
+ 
+}
+
+
+footer p{
+    color: white;
+}
+.mtprojectfooter img{
+    width: 70px;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding: 10px;
+}
+.but-footer{
+    width: 50%;
+    height: auto;
+  
+}
+.but-footer .b1{
+    background-color: gray; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    cursor: pointer
+  
+}
+.but-footer .b2{
+    background-color: black; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    cursor: pointer
+
+  
+}
+.mtprojectfooter{
+    text-align: center;
+    
+}
+.aboutmefooter{
+    padding: 20px 20px;
+
+}
+

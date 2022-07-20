@@ -1,0 +1,74 @@
+body{ 
+    min-height: 100vh;
+  }
+nav{
+    display: flow-root;
+    width: 100%;
+    background-color: steelblue;
+   
+}
+nav h3{
+    color: white;
+    float:left;
+    padding-left: 20px;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+li {
+    float: right;
+    padding: 10px;
+ 
+  }
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+footer{
+    background-color: white;
+    color: black;
+}
+.footer1 label{
+    color: black;
+}
+.footer2 label{
+    color: black;
+}
+footer p{
+    color: black;
+}
+footer h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    
+}
+.footer1{
+    padding-left: 30%;
+    
+}
+.footer2{
+    padding-right: 30%;
+}
+.foooter{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    
+}
